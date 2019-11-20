@@ -1,0 +1,275 @@
+/* You can add global styles to this file, and also import other style files
+.floatingborder1 {
+    border: 1px solid blue!important;
+ }
+ .day:focus{   
+    border: 1px solid green!important;
+
+ }
+
+ li:focus{
+     background-color: red;
+     
+ }
+ 
+ .yellowclr{
+    border: 3px solid green!important;
+
+ } */
+
+ .abc {
+     background: white;
+     color: green;
+     border: 3px green;
+     cursor: pointer;
+     text-align: right;
+     /* content: "fa fa-sign-out" */
+ }
+
+ .popparent {
+     margin: 0;
+ }
+
+ .btndivcls {
+     display: grid;
+ }
+ .topnav {
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 5px black;
+    z-index: 2;
+}
+
+.transparentNav {
+    box-shadow: 0px 0px 0px black !important;
+    background-color: transparent !important;
+}
+
+.topnav-mobile {
+    flex-direction: column;
+    padding: 0px;
+}
+
+.topnav * {
+    vertical-align: middle;
+}
+
+.top-nav-input-control {
+    border-radius: 0px;
+    padding: 0px 8px;
+    border: none;
+    border-bottom: 2px solid blue;
+    font-size: 1rem;
+    line-height: 1.5;
+    outline: none;
+}
+
+.top-nav-button {
+    //background-color: #fff;
+    border: none;
+    box-shadow: none;
+    //color: blue;
+    cursor: pointer;
+    //padding: .5rem 1rem;
+    font-size: 1rem;
+}
+
+.topnav a {
+    cursor: pointer;
+    padding: 0px 8px;
+    //color : blue
+}
+
+.topnav a label {
+    //color: blue;
+}
+
+.topnavbarunit1 {
+    // line-height: 50px;
+    // display: flex;
+}
+
+.topnav-lhs-mobile {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topnavbarunit2 {
+    //background-color: grey;
+    //width: 80%;
+    // line-height: 50px;
+}
+
+.topnavbarunit2-mobile {
+    width: 100%;
+    //padding: 5px;
+    box-shadow: 0px 0px 2px 0px blue;
+    //background-color: #FFB6C1;
+}
+
+.topnavmainbar {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.topnavmainbar-mobile {
+    flex-direction: column;
+}
+
+.topnavmainbaritems {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: inherit;
+    align-items: center;
+}
+
+.topnavmainbaritems-mobile {
+    flex-direction: column;
+    align-items: unset;
+}
+
+.topnavmainbarinneritems {
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.topnavmainbarinneritems-mobile {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid blue;
+}
+
+.topnavmainbarinneritems .nav-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.topnavmainbarinneritems-mobile .nav-dropdown {
+    width: 100%;
+    line-height: 50px;
+    flex-direction: column;
+    display: flex;
+}
+
+.top-nav-link {
+    padding: 0px 8px;
+}
+
+.top-nav-link i {
+    padding: 0px 5px;
+}
+
+.topnavmainbarinneritems-mobile .nav-dropdown .nav-dropbtn .dropdownicon {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.nav-dropdown .nav-dropbtn i {
+    padding: 0px 5px;
+}
+
+.nav-dropdown .nav-dropbtn {
+    padding: 0px 8px;
+}
+
+.topnavmainbarinneritems .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    //background-color: #FFB6C1;
+    min-width: 160px;
+    z-index: 3;
+    padding: 10px 0px;
+    box-shadow: 0px 5px 5px black;
+    transition: all 0.3s ease;
+    //transform: scale(0);
+    transform-origin: 0 0;
+}
+
+.topnavmainbarinneritems-mobile .nav-dropdown-content {
+    display: none;
+    margin: 0px 5px;
+    padding: 0px 5px;
+    position: relative;
+    //background-color: #FFB6C1;
+    box-shadow: 0px 0px 0px black;
+}
+
+.topnavmainbarinneritems .nav-dropdown-content a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    text-align: left;
+    //color: blue!important;
+}
+
+.nav-dropdown:hover {
+    //background-color: #FFB6C1;
+    .nav-dropbtn .dropdownicon {
+        transform: rotate(180deg);
+    }
+    .nav-dropdown-content {
+        display: block;
+        //transform: scale(1);
+    }
+}
+
+.topnavmainbarinneritems-mobile .top-nav-input-control {
+    width: 100%;
+}
+
+.mobilebar {
+    display: inline-block;
+    float: right;
+    color: blue;
+    padding-right: 10px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.style-name {
+    background-color: red;
+}
+.topnavmainbaritems amexio-nav-item1:last-child {
+    .topnavmainbarinneritems .nav-dropdown-content {
+        /* right: 10px !important */
+    }
+}
+
+.nav-dropdown-content-right .nav-dropdown-content {
+    right: 10px;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.sidenav-padding {
+    display: inline-flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+.sidenav-mobile-bar {
+    height: 50px;
+}
+
+.sidenav-mobile-bar-left {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+    left: 0;
+}
+
+ 
+.homepage-collapse {
+    align-items: center;
+}
